@@ -13,7 +13,7 @@ export const PokemonList = (props: Props) => {
     <div className="pl-[57px] w-full mr-[140px]">
       <p className="font-bold text-3xl">Pokemon With Type {props.active}</p>
       <Card sx={{ backgroundColor: "rgba(255,255,255,0.5)", p: 2 }}>
-        {props.data.map((item, index) => (
+        {props.data.map((item) => (
           <div key={item.id} className="flex border-b-2 py-4">
             <div className="pr-[24px] border-r-2">
               <img src={item.image} alt={item.name} height={100} width={100} />

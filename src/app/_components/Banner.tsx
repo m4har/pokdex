@@ -26,7 +26,7 @@ export const Banner = () => {
       <div className="flex w-full justify-between items-center">
         <div className="w-[534px] flex flex-col space-y-5">
           <Typography variant="h2" sx={{ fontWeight: "bold" }}>
-            All the Pokémon data you'll ever need in one place!
+            {`All the Pokémon data you'll ever need in one place!`}
           </Typography>
           <Typography variant="body1">
             Thousands of data compiled into one place
